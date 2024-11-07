@@ -4,6 +4,7 @@ services:
     build: .
     ports:
       - "8888:8888"
+      - "9092:9092"
     volumes:
       - ./notebooks:/app/notebooks
       - ./data:/app/data
